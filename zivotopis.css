@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+.vlajky{
+  
+    display: inline-block;
+}
+
+.ja{
+    height: 333px;
+    width: auto
+    margin: 0;
+    padding: 2px;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+header {
+  background-color: black;
+  padding-top: 1px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  height: 90px;
+    font-family: serif;
+}
+
+
+section {
+  display: -webkit-flex;
+  display: flex;
+  font-family: serif;
+  
+  
+}
+
+nav{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: linear-gradient(45deg, #0ae4f0, #05b3f7);
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+  padding-top: 5px;
+  margin: 0;
+  
+ 
+  
+}
+
+
+nav ul {
+  list-style-type: disc;
+  font-family: serif;
+  padding: 0;
+}
+
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  
+  padding: 5px;
+ text-align: center;
+   
+  
+}
+
+
+footer {
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  height: 130px;
+}
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+   
+.tlacitkaobal{
+    padding: 25px;
+    margin: 20px;
+    
+    
+} 
+
+.tlacitka{
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 20px;
+    text-decoration-line: none;
+    font-size:25px;
+    text-align: center;
+    color: black;
+    float: left;
+    padding: 5px;
+}
+
+.tlacitka:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+   
+}
+
+
+
+
+#vzdelani, #vz, table, tr, th, td {
+    border: 2px solid black;
+    margin: 0;
+    width: 333px;
+    text-align: center;
+}
+#vzdelani, #vz, tbody tr:nth-child(odd) td, th{
+    background-color: #0ae4f0;
+}
+#vzdelani, #vz tbody tr:nth-child(odd) td{
+    background-color: #ffaa00;
+}
+
+
+
